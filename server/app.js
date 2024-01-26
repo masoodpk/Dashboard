@@ -44,7 +44,7 @@ app.get('/api/graph', (req, res) => {
   res.json(graphData);
 });
 
-app.listen(3000, error => {
+app.listen(3001, error => {
   if(error) return console.log(error);
   console.log("server started");
 })
