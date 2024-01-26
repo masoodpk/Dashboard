@@ -7,6 +7,7 @@
     position: relative;
     width: 100vw;
     min-height: 100svh;
+    background-color: rgb(218, 216, 216);
 }
 .right {
     position: absolute; 

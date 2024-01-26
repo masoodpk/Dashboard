@@ -59,5 +59,29 @@
 .logout {
   width: 100%;
   height: 100px;
-  background-color: white;
+  background-color: rgb(253, 247, 247);
+}
+.logout  ul li {
+position: absolute;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  padding: 10px;
+ 
+  border-radius: 10px 0px 0px 10px;
+  width: 75%;
+  
+}
+.logout ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 30px;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  color: rgb(245, 30, 30);
+  font-size: medium;
+
 }

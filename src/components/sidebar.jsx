@@ -7,6 +7,7 @@ import statBoard from '/public/Assets/StatBoard.png'
 import help from '/public/Assets/Help.png'
 import support from '/public/Assets/Support.png'
 import puzzle from '/public/Assets/Puzzle.png'
+import shutdown from '/public/Assets/Shutdown.png'
 function Sidebar() {
   return (
     <>
@@ -26,7 +27,10 @@ function Sidebar() {
 
         </div>
         <div className="logout">
-          
+        <ul>
+          <li>logout<img src={shutdown} alt="" /></li>
+      
+          </ul>
         </div>
       </div>
     </>

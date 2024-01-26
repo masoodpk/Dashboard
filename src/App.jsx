@@ -16,13 +16,16 @@ function App() {
   if (import.meta.env.DEV) {
     axios.defaults.baseURL = 'http://localhost:3001';
   }
+  
+
+
   return (
     <>
       <div className='body'>
         <Sidebar />
         <div className="right">
           <div className="one">
-            <p>Good morning</p>
+            <p >Good morning !</p>
           <Card2 />
           </div>
           <div className="two">
