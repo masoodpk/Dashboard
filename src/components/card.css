@@ -17,12 +17,14 @@ color: black;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: 10px;
 }
 .icons ul li {
  display: flex;
  justify-content: center;
  align-items: center;
+
 }
-.margin{
-    margin-right: 10px;
+.icons{
+    margin-top: 10px;
 }

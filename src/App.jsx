@@ -2,6 +2,8 @@ import { useState } from 'react'
 import axios from 'axios';
 import Sidebar from './components/sidebar';
 import Card from './components/card';
+import Card2 from './components/card2'
+import NavBar from './components/Navbar';
 
 import './App.css'
 
@@ -14,9 +16,14 @@ function App() {
   return (
     <>
      <div>
-
+    
+     <Card2 />
   <Sidebar />
+ 
+  
   <Card />
+  {/* <NavBar /> */}
+
 
 
 

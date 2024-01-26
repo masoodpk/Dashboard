@@ -7,9 +7,9 @@ import statBoard from '/public/Assets/StatBoard.png'
 import help from '/public/Assets/Help.png'
 import support from '/public/Assets/Support.png'
 import puzzle from '/public/Assets/Puzzle.png'
-
 function Sidebar(){
   return(
+    <>
     <div className='sidebar'>
       <div className='sidebar_icon'>
         <img src={briefcase_icon} alt="" />
@@ -26,6 +26,7 @@ function Sidebar(){
 
 </div>
     </div>
+    </>
   )
 }
 
