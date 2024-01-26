@@ -2,8 +2,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-   
-    
-
+}
+.body {
+    position: relative;
+    width: 100vw;
+    min-height: 100svh;
+}
+.right {
+    position: absolute; 
+    width: calc(100% - 250px);
+    height: 100%;
+    right: 0;
+}
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-block: 10px;
+    padding-inline: 40px;
+    height: 10%;
+    width: 100%;
+}
+.one p {
+    flex-grow: 999;
+    text-align: left;
+}
+.two {
+    display: flex;
+    gap: 10px;
+    height: 50%;
+    padding: 20px;
+}
+.two .graph {
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.two .pie {
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.three {
+    display: flex;
+    height: 40%;
+    padding: 20px;
+    gap: 10px;
 }

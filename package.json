@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@canvasjs/react-charts": "^1.0.0",
     "axios": "^1.6.6",
     "concurrently": "^8.2.2",
     "cors": "^2.8.5",

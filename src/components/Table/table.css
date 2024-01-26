@@ -1,0 +1,22 @@
+.table-container {
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+}
+
+.table {
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.table td {
+    text-align: center;
+}
+.table tr:nth-child(2n) {
+    background-color: antiquewhite;
+}
+.table th {
+    font-weight: bold;
+}

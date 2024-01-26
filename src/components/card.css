@@ -4,13 +4,17 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-
-
-    position: fixed;
-    right: 70px;
-    bottom: 40px;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    width: 20%;
+    height: 100%;
+}
+.card .card-img {
+    width: 100%;
+}
+.card .card-img img {
+    width: 100%;
+    object-fit: cover;
 }
 .card h2,p{
 color: black;
