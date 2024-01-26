@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import axios from 'axios';
 import Sidebar from './components/sidebar';
+import Card from './components/card';
 
 import './App.css'
 
@@ -15,6 +16,7 @@ function App() {
      <div>
 
   <Sidebar />
+  <Card />
 
 
 
